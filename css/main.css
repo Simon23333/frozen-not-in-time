@@ -20,14 +20,14 @@ a {
   text-decoration: none;
 }
 
-.btn {
+.btn-ghost {
   color: #c09;
   border: 3px solid #990073;
   border-radius: 4px;
   background-color: transparent;
 }
 
-.btn:hover {
+.btn-ghost:hover {
   color: #c09;
   background-color: #c09;
   border-color: #990073;
@@ -40,4 +40,59 @@ a {
   top: 10px;
   animation: box 1s linear;
   text-shadow: 1px 1px 1px;
+}
+
+@keyframes cone {
+
+  from {
+    bottom: ;
+  }
+
+  to {
+    bottom: ;
+  }
+}
+
+@keyframes cherry {
+
+  from {
+    bottom: ;
+  }
+
+  to {
+    bottom: ;
+  }
+}
+
+@keyframes chocolate {
+
+  from {
+    bottom: ;
+  }
+
+  to {
+    bottom: ;
+  }
+}
+
+@keyframes mint {
+
+  from {
+    bottom: ;
+  }
+
+  to {
+    bottom: ;
+  }
+}
+
+@keyframes vanilla {
+
+  from {
+    bottom: ;
+  }
+
+  to {
+    bottom: ;
+  }
 }
