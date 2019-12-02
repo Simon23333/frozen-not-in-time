@@ -1,7 +1,43 @@
 html {
-  background-color: #000;
+  font-family: "Fredoka One", sans-serif;
 }
 
 h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+  transform-origin: left center;
+}
 
+p {
+  color: #c09;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+  max-width: 19em;
+}
+
+a {
+  color: #c09;
+  text-decoration: none;
+}
+
+.btn {
+  color: #c09;
+  border: 3px solid #990073;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: #c09;
+  background-color: #c09;
+  border-color: #990073;
+}
+
+.box {
+  position: relative;
+  transform-origin: left;
+  left: 50px;
+  top: 10px;
+  animation: box 1s linear;
+  text-shadow: 1px 1px 1px;
 }
