@@ -75,26 +75,24 @@ a {
 @keyframes cone {
 
   0% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
   100% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 @keyframes cherry {
 
   0% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
   100% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateY(0);
   }
 
 }
@@ -102,13 +100,12 @@ a {
 @keyframes chocolate {
 
   0% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
   100% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateY(0);
   }
 
 }
@@ -116,13 +113,12 @@ a {
 @keyframes mintchip {
 
   0% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
   100% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateY(0);
   }
 
 }
@@ -130,13 +126,12 @@ a {
 @keyframes vanilla {
 
   0% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateX(0);
+    transform: translateY(-500px);
   }
 
   100% {
-    transform: translateX();
-    transform: translateY();
+    transform: translateY(0);
   }
-  
+
 }
