@@ -51,78 +51,92 @@ a {
 .mintchip {
   right: 20px;
   bottom: -20px;
-  animation: .2s linear forwards;
+  animation: mint .3s linear forwards;
 }
 
 .chocolate {
   right: 20px;
   bottom: -20px;
-  animation: .2s linear forwards;
+  animation: chocolate .4s linear forwards;
 }
 
 .vanilla {
-  right: ;
-  bottom: ;
-  animation: .2s linear forwards;
+  right: 20px;
+  bottom:-20px ;
+  animation: vanilla .5s linear forwards;
 }
 
 .cherry {
   right: 20px;
   bottom: -20px;
-  animation: .2s linear forwards;
+  animation: cherry .6s linear forwards;
 }
 
 @keyframes cone {
 
-  from {
-    bottom: ;
+  0% {
+    transform: translateX();
+    transform: translateY();
   }
 
-  to {
-    bottom: ;
+  100% {
+    transform: translateX();
+    transform: translateY();
   }
 }
 
 @keyframes cherry {
 
-  from {
-    bottom: ;
+  0% {
+    transform: translateX();
+    transform: translateY();
   }
 
-  to {
-    bottom: ;
+  100% {
+    transform: translateX();
+    transform: translateY();
   }
+
 }
 
 @keyframes chocolate {
 
   0% {
-    top: -90%;
+    transform: translateX();
+    transform: translateY();
   }
 
   100% {
-      top: 65px;
+    transform: translateX();
+    transform: translateY();
   }
+
 }
 
 @keyframes mintchip {
 
-  from {
-    bottom: ;
+  0% {
+    transform: translateX();
+    transform: translateY();
   }
 
-  to {
-    bottom: ;
+  100% {
+    transform: translateX();
+    transform: translateY();
   }
+
 }
 
 @keyframes vanilla {
 
-  from {
-    bottom: ;
+  0% {
+    transform: translateX();
+    transform: translateY();
   }
 
-  to {
-    bottom: ;
+  100% {
+    transform: translateX();
+    transform: translateY();
   }
+  
 }
