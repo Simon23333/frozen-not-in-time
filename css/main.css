@@ -1,6 +1,6 @@
 html {
   font-family: "Fredoka One", sans-serif;
-  repeating-linear-gradient(-30deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px)
+  background-image: repeating-linear-gradient(-30deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
 }
 
 h1 {
@@ -22,20 +22,20 @@ a {
 }
 
 img {
-  max-width: 180px;
+  max-width: 280px;
+  position: absolute;
 }
 
 .btn-ghost {
-  color: #c09;
   border: 3px solid #990073;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: transparent;
 }
 
 .btn-ghost:hover {
   color: #c09;
-  background-color: #c09;
-  border-color: #990073;
+  border-color: #c09;
+  opacity: .5;
 }
 
 .box {
@@ -48,32 +48,32 @@ img {
 }
 
 .cone {
-  right: 50px;
-  bottom: -50px;
+  right: 60px;
+  bottom: -60px;
   animation: cone .2s linear forwards;
 }
 
 .mintchip {
-  right: 20px;
-  bottom: -20px;
+  right: 60px;
+  bottom: 40px;
   animation: mint .3s linear forwards;
 }
 
 .chocolate {
-  right: 20px;
-  bottom: -20px;
+  right: 60px;
+  bottom: 130px;
   animation: chocolate .4s linear forwards;
 }
 
 .vanilla {
-  right: 20px;
-  bottom:-20px ;
+  right: 60px;
+  bottom: 200px ;
   animation: vanilla .5s linear forwards;
 }
 
 .cherry {
-  right: 20px;
-  bottom: -20px;
+  right: 60px;
+  bottom: 250px;
   animation: cherry .6s linear forwards;
 }
 
