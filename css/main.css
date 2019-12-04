@@ -42,9 +42,34 @@ a {
   text-shadow: 1px 1px 1px;
 }
 
+.cone {
+  right: 20px;
+  bottom: -20px;
+  animation: cone .2s linear forwards;
+}
+
+.mintchip {
+  right: 20px;
+  bottom: -20px;
+  animation: .2s linear forwards;
+}
+
+.chocolate {
+  right: 20px;
+  bottom: -20px;
+  animation: .2s linear forwards;
+}
+
 .vanilla {
-  top: -90%;
- left: 70%;
+  right: ;
+  bottom: ;
+  animation: .2s linear forwards;
+}
+
+.cherry {
+  right: 20px;
+  bottom: -20px;
+  animation: .2s linear forwards;
 }
 
 @keyframes cone {
