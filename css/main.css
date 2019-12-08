@@ -1,6 +1,10 @@
 html {
   font-family: "Fredoka One", sans-serif;
-  background-image: repeating-linear-gradient(-30deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+  background-image: repeating-linear-gradient(-20deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+  border-top: 6px solid #b3fbff;
+  border-bottom: 6px solid #b3fbff;
+  min-height: 500px;
+  max-height: 500px;
 }
 
 h1 {
@@ -11,7 +15,7 @@ h1 {
 
 p {
   color: #c09;
-  transform: rotate(-5deg);
+  transform: rotate(-6deg);
   transform-origin: left center;
   max-width: 19em;
 }
@@ -27,6 +31,7 @@ img {
 }
 
 .btn-ghost {
+  color: #c09;
   border: 3px solid #990073;
   border-radius: 3px;
   background-color: transparent;
@@ -34,15 +39,16 @@ img {
 
 .btn-ghost:hover {
   color: #c09;
-  border-color: #c09;
+  border-color: #990073;
   opacity: .5;
+  background-color: #c09;
 }
 
-.box {
+.text {
   position: relative;
   transform-origin: left;
   left: 50px;
-  top: 10px;
+  top: 110px;
   animation: box 1s linear;
   text-shadow: 1px 1px 1px;
 }
@@ -55,54 +61,29 @@ img {
 
 .mintchip {
   right: 60px;
-  bottom: 40px;
-  animation: mint .3s linear forwards;
+  bottom: 45px;
+  animation: mintchip .3s linear forwards;
 }
 
 .chocolate {
-  right: 60px;
+  right: 50px;
   bottom: 130px;
   animation: chocolate .4s linear forwards;
 }
 
 .vanilla {
   right: 60px;
-  bottom: 200px ;
+  bottom: 200px;
   animation: vanilla .5s linear forwards;
 }
 
 .cherry {
   right: 60px;
-  bottom: 250px;
+  bottom: 350px;
   animation: cherry .6s linear forwards;
 }
 
 @keyframes cone {
-
-  0% {
-    transform: translateX(0);
-    transform: translateY(-500px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes cherry {
-
-  0% {
-    transform: translateX(0);
-    transform: translateY(-500px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-
-}
-
-@keyframes chocolate {
 
   0% {
     transform: translateX(0);
@@ -128,7 +109,33 @@ img {
 
 }
 
+@keyframes chocolate {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
 @keyframes vanilla {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes cherry {
 
   0% {
     transform: translateX(0);
