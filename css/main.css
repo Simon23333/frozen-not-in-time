@@ -9,7 +9,7 @@ html {
 h1 {
   transform-origin: left center;
   color: #990073;
-  transform: rotate(-10deg);
+  transform: rotate(-7deg);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
 }
 
@@ -29,7 +29,7 @@ a {
 
 img {
   position: absolute;
-  max-width: 280px;
+  max-width: 180px;
 }
 
 .btn-ghost {
@@ -46,83 +46,42 @@ img {
 
 .text {
   transform-origin: left center;
-  animation: text 2000ms ease-in forwards;
-}
-
-.mintchip {
-  z-index: 3;
-  top: 200px;
-  left: 70%;
-  animation: mintchip .3s linear forwards;
-  position: absolute;
-  max-height: 170px;
-}
-.cone {
-  z-index: 4;
-  top: 305px;
-  left: 75%;
-  animation: cone .2s linear forwards;
-  max-width: 180px;
-}
-
-.chocolate {
-  z-index: 5;
-  top: 150px;
-  left: 75%;
-  position: absolute;
-  width: 180px;
-  animation: chocolate .4s linear forwards;
-}
-
-.vanilla {
-  z-index: 6;
-  top: 76px;
-  left: 74%;
-  position: absolute;
-  width: 180px;
-  animation: vanilla .5s linear forwards;
+  animation: text 1s ease-in forwards;
 }
 
 .cherry {
-  z-index: 7;
-  top: 4px;
-  left: 74%;
-  position: absolute;
-  width: 180px;
-  animation: cherry .6s linear forwards;
+  top: -300px;
+  animation: cherry .5s 1s linear forwards;
 }
 
-@keyframes cone {
+.vanilla {
+  top: -300px;
+  animation: vanilla .5s .75s linear forwards;
+}
+
+.chocolate {
+  top: -300px;
+  animation: chocolate .5s .5s linear forwards;
+}
+
+.mintchip {
+  top: -300px;
+  animation: mintchip .5s .25s linear forwards;
+}
+
+.cone {
+  top: -300px;
+  animation: cone .5s linear forwards;
+}
+
+@keyframes cherry {
 
   0% {
-    top: -80%;
+    transform: translateY(-300px);
   }
 
   100% {
-    top: 325px;
-  }
-
-}
-
-@keyframes mintchip {
-
-  0% {
-    top: -80%;
-  }
-
-  100% {
-    top: 230px;
-  }
-
-}
-
-@keyframes chocolate {
-
-  0% {
-     top: -80%;
-
-  100% {
-     top: 140px;
+    transform: translateY(275px);
   }
 
 }
@@ -130,23 +89,35 @@ img {
 @keyframes vanilla {
 
   0% {
-     top: -90%;
+    transform: translateY(-300px);
   }
 
   100% {
-    top: 150px;
+    transform: translateY(350px);
   }
 
 }
 
-@keyframes cherry {
+@keyframes chocolate {
 
   0% {
-     top: -80%;
+    transform: translateY(-300px);
   }
 
   100% {
-    top: 100px;
+    transform: translateY(425px);
+  }
+
+}
+
+@keyframes mintchip {
+
+  0% {
+    transform: translateY(-200px);
+  }
+
+  100% {
+    transform: translateY(500px);
   }
 
 }
@@ -155,13 +126,24 @@ img {
 
   0% {
     opacity: 0;
-    bottom: 100%;
     filter: blur(10px);
   }
 
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(600px);
   }
 
 }
